@@ -1,35 +1,17 @@
-name: Demo-CI-Test                 
-
-on:    
-  push: 
-       branches:
-            -Priya
-
-jobs:   
-  test:
-    name: Test
-    runs-on: macos-latest.  
-
-
-    strategy:      
-        matrix:  
-          destination: [“platform=iOS Simulator,OS=13.2.2,name=iPad Pro 12.9-inch”]
-
-
-    steps:   
-      - name: Checkout
-        uses: actions/checkout@Priya
-
-
-      - name: Build    
-        run: |
-          xcodebuild clean build -project CIdemoProject.xcodeproj -scheme CIdemoProject -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-        env: 
-         destination: ${{ matrix.destination }}
-
-
-      - name: Test  
-        run: |
-          xcodebuild clean test -project CIdemoProject.xcodeproj  -scheme CIdemoProjectTests -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-        env: 
-         destination: ${{ matrix.destination }}
+name: CICD Demo
+on:
+ push:
+  branches:
+   - Priya
+ pull_request:
+  branches:
+   - Priya
+jobs:
+ build-and-test:
+  runs-on: macos-latest
+  steps:
+  - uses: actions/checkout@v2
+  - name: Select Xcode
+    run: sudo Xcode-select -switch /Applications/Xcode.app
+  - name: Build & Test
+    run: xcodebuild clean build test -workspace CIdemoProject.xcworkspace -scheme CIdemoProject -destination 'platform=iOS Simulator,name=iPhone 12 Pro,OS=15.2'
