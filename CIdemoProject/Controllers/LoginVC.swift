@@ -1,13 +1,14 @@
 //
-//  ViewController.swift
+//  LoginVC.swift
 //  CIdemoProject
 //
-//  Created by Priya Sharma on 02/12/23.
+//  Created by Priya Sharma on 05/12/23.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
     
     @IBOutlet weak var nameTextFiled: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -21,9 +22,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func submitButtonAction(_ sender: UIButton) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WelcomeVC") as? WelcomeVC
+        self.navigationController?.pushViewController(vc!, animated: true)
         
     }
 
 
 }
-
