@@ -94,6 +94,9 @@
                             <constraint firstItem="4MS-Nx-KDt" firstAttribute="top" secondItem="ta8-nK-y4K" secondAttribute="top" constant="105" id="lwx-Py-CF5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="4MS-Nx-KDt" id="wdC-Ri-kLs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bua-89-PUj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -38,6 +38,7 @@ class LoginVC: UIViewController {
             
         }else {
             let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WelcomeVC") as? WelcomeVC
+            vc?.name = nameTextFiled.text ?? ""
             self.navigationController?.pushViewController(vc!, animated: true)
             
         }
