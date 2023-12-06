@@ -10,7 +10,7 @@ jobs:
  build-and-test:
   runs-on: macos-latest
   steps:
-  - uses: actions/checkout@v2
+  - uses: actions/checkout@v3
   - name: Select Xcode
     run: sudo Xcode-select -switch /Applications/Xcode.app
   - name: Build & Test
