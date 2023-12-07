@@ -20,7 +20,7 @@ class WelcomeVC: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        welcomeLabel.text = "Hello \(name), how are you ? updationg jhdvahjgbsa testing somethinngnfbsjfbsjhfgdjhgfdjhgfjdxyfgdjfgdjfgdsjfgdjufgdufghdukfgdghxjgxjkvbdxjvbxj"
+        welcomeLabel.text = "Hello \(name), how are you ? updationg jhdvahjgbsa testing fcghgfdxszerfcxdfghb"
     }
     
 }
