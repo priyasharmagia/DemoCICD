@@ -14,4 +14,4 @@ jobs:
   - name: Select Xcode
     run: sudo Xcode-select -switch /Applications/Xcode.app
   - name: Build & Test
-    run: xcodebuild clean build test -project CIdemoProject.xcodeproj -scheme CIdemoProject -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4'
+    run: xcodebuild clean build test -project CIdemoProject.xcodeproj -scheme CIdemoProject -destination 'platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device'
