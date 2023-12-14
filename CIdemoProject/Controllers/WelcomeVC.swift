@@ -18,9 +18,9 @@ class WelcomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        welcomeLabel.text = "Hello \(name), how are you ? updationg jhdvahjgbsa testing fcghgfdxszerfcxdfghb"
+        
+        welcomeLabel.text = "Hello \(name), how are you ? I have changed the file"
     }
     
 }
