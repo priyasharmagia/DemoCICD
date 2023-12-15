@@ -20,7 +20,7 @@ class WelcomeVC: UIViewController {
         super.viewDidLoad()
         
         
-        welcomeLabel.text = "Hello \(name), how are you ? I have changed the file and simulator settings, not running on simulator, what are u doing,,jhjhgjyfthdrgdgrdcghchgvhebfhbfubdughbuydhgbudbybdfyughunudnfvuidbghybfiubfg"
+        welcomeLabel.text = "Hello \(name), how are you ? doing,,jhjhgjyfthdrgdgrdcghchgvhebfhbfubdughbuydhgbudbybdfyughunudnfvuidbghybfiubfgjxghjdxkgjkdxhgjkdxhgvkcfhkjfcxhbkjcfhbk"
     }
     
 }
