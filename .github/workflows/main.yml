@@ -14,4 +14,4 @@ jobs:
   - name: Select Xcode
     run: sudo Xcode-select -switch /Applications/Xcode.app
   - name: Build
-    run: xcodebuild clean build -project CIdemoProject.xcodeproj -scheme CIdemoProject 
+    run: xcodebuild clean build -project CIdemoProject.xcodeproj -scheme CIdemoProject CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
