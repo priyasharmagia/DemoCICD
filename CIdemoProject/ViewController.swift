@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func submitButtonAction(_ sender: UIButton) {
-        
+        print("Clicked Submit Button")
     }
 
 
