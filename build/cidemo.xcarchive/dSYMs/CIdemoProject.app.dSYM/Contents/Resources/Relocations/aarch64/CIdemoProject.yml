@@ -1,0 +1,58 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/prisharm/Library/Developer/Xcode/DerivedData/CIdemoProject-btufadqoqaigzjgxsxfbygpdygxp/Build/Intermediates.noindex/ArchiveIntermediates/CIdemoProject/InstallationBuildProductsLocation/Applications/CIdemoProject.app/CIdemoProject'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x538CE, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC12welcomeLabelSo7UILabelCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008000, symSize: 0x20 }
+  - { offsetInCU: 0x69, offset: 0x53910, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC12welcomeLabelSo7UILabelCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008000, symSize: 0x20 }
+  - { offsetInCU: 0xD0, offset: 0x53977, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC12welcomeLabelSo7UILabelCSgvsTo', symObjAddr: 0x20, symBinAddr: 0x100008020, symSize: 0x14 }
+  - { offsetInCU: 0x133, offset: 0x539DA, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC11viewDidLoadyyF', symObjAddr: 0x34, symBinAddr: 0x100008034, symSize: 0x11C }
+  - { offsetInCU: 0x271, offset: 0x53B18, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC11viewDidLoadyyFTo', symObjAddr: 0x150, symBinAddr: 0x100008150, symSize: 0x34 }
+  - { offsetInCU: 0x2BF, offset: 0x53B66, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x184, symBinAddr: 0x100008184, symSize: 0xD4 }
+  - { offsetInCU: 0x330, offset: 0x53BD7, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x258, symBinAddr: 0x100008258, symSize: 0x6C }
+  - { offsetInCU: 0x373, offset: 0x53C1A, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCCfD', symObjAddr: 0x2C4, symBinAddr: 0x1000082C4, symSize: 0x30 }
+  - { offsetInCU: 0x3E3, offset: 0x53C8A, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCCfETo', symObjAddr: 0x2F4, symBinAddr: 0x1000082F4, symSize: 0x3C }
+  - { offsetInCU: 0x412, offset: 0x53CB9, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject9WelcomeVCCMa', symObjAddr: 0x330, symBinAddr: 0x100008330, symSize: 0x20 }
+  - { offsetInCU: 0x27, offset: 0x53EA0, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0k6LaunchJ3KeyaypGSgtFTo', symObjAddr: 0x0, symBinAddr: 0x100008350, symSize: 0x8 }
+  - { offsetInCU: 0x4B, offset: 0x53EC4, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0k6LaunchJ3KeyaypGSgtFTo', symObjAddr: 0x0, symBinAddr: 0x100008350, symSize: 0x8 }
+  - { offsetInCU: 0xA9, offset: 0x53F22, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0J7SessionCSo0J17ConnectionOptionsCtFTo', symObjAddr: 0x8, symBinAddr: 0x100008358, symSize: 0xE4 }
+  - { offsetInCU: 0x11C, offset: 0x53F95, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtFTo', symObjAddr: 0xEC, symBinAddr: 0x10000843C, symSize: 0x4 }
+  - { offsetInCU: 0x156, offset: 0x53FCF, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateCACycfcTo', symObjAddr: 0xF0, symBinAddr: 0x100008440, symSize: 0x3C }
+  - { offsetInCU: 0x191, offset: 0x5400A, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateCfD', symObjAddr: 0x12C, symBinAddr: 0x10000847C, symSize: 0x30 }
+  - { offsetInCU: 0x1CD, offset: 0x54046, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x15C, symBinAddr: 0x1000084AC, symSize: 0x88 }
+  - { offsetInCU: 0x207, offset: 0x54080, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject11AppDelegateCMa', symObjAddr: 0x1E4, symBinAddr: 0x100008534, symSize: 0x20 }
+  - { offsetInCU: 0x27, offset: 0x54208, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC13nameTextFiledSo11UITextFieldCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008554, symSize: 0x20 }
+  - { offsetInCU: 0x69, offset: 0x5424A, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC13nameTextFiledSo11UITextFieldCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008554, symSize: 0x20 }
+  - { offsetInCU: 0xD0, offset: 0x542B1, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC13nameTextFiledSo11UITextFieldCSgvsTo', symObjAddr: 0x20, symBinAddr: 0x100008574, symSize: 0x14 }
+  - { offsetInCU: 0x133, offset: 0x54314, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC17passwordTextFieldSo06UITextG0CSgvgTo', symObjAddr: 0x34, symBinAddr: 0x100008588, symSize: 0x20 }
+  - { offsetInCU: 0x19A, offset: 0x5437B, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC17passwordTextFieldSo06UITextG0CSgvsTo', symObjAddr: 0x54, symBinAddr: 0x1000085A8, symSize: 0x14 }
+  - { offsetInCU: 0x1FD, offset: 0x543DE, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC11viewDidLoadyyFTo', symObjAddr: 0x68, symBinAddr: 0x1000085BC, symSize: 0x3C }
+  - { offsetInCU: 0x238, offset: 0x54419, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC18submitButtonActionyySo8UIButtonCFySo07UIAlertG0CcfU_', symObjAddr: 0xA4, symBinAddr: 0x1000085F8, symSize: 0x4 }
+  - { offsetInCU: 0x261, offset: 0x54442, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC18submitButtonActionyySo8UIButtonCFySo07UIAlertG0CcfU0_', symObjAddr: 0xFC, symBinAddr: 0x100008650, symSize: 0x4 }
+  - { offsetInCU: 0x299, offset: 0x5447A, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC18submitButtonActionyySo8UIButtonCFTo', symObjAddr: 0x100, symBinAddr: 0x100008654, symSize: 0x44 }
+  - { offsetInCU: 0x2FD, offset: 0x544DE, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x144, symBinAddr: 0x100008698, symSize: 0xF0 }
+  - { offsetInCU: 0x36A, offset: 0x5454B, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x234, symBinAddr: 0x100008788, symSize: 0x6C }
+  - { offsetInCU: 0x3AD, offset: 0x5458E, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCCfD', symObjAddr: 0x2A0, symBinAddr: 0x1000087F4, symSize: 0x30 }
+  - { offsetInCU: 0x3DA, offset: 0x545BB, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCC18submitButtonActionyySo8UIButtonCFTf4dn_n', symObjAddr: 0x328, symBinAddr: 0x10000887C, symSize: 0x4F0 }
+  - { offsetInCU: 0x599, offset: 0x5477A, size: 0x8, addend: 0x0, symName: '_$sSo13UIAlertActionCIegg_ABIeyBy_TR', symObjAddr: 0xA8, symBinAddr: 0x1000085FC, symSize: 0x54 }
+  - { offsetInCU: 0x5B1, offset: 0x54792, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCCfETo', symObjAddr: 0x2D0, symBinAddr: 0x100008824, symSize: 0x38 }
+  - { offsetInCU: 0x5E0, offset: 0x547C1, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject7LoginVCCMa', symObjAddr: 0x308, symBinAddr: 0x10000885C, symSize: 0x20 }
+  - { offsetInCU: 0x62B, offset: 0x5480C, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x818, symBinAddr: 0x100008D6C, symSize: 0x10 }
+  - { offsetInCU: 0x63F, offset: 0x54820, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x828, symBinAddr: 0x100008D7C, symSize: 0x8 }
+  - { offsetInCU: 0x27, offset: 0x54A5D, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC6windowSo8UIWindowCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008D8C, symSize: 0x10 }
+  - { offsetInCU: 0x69, offset: 0x54A9F, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC6windowSo8UIWindowCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008D8C, symSize: 0x10 }
+  - { offsetInCU: 0x89, offset: 0x54ABF, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC6windowSo8UIWindowCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100008D8C, symSize: 0x10 }
+  - { offsetInCU: 0xD0, offset: 0x54B06, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC6windowSo8UIWindowCSgvsTo', symObjAddr: 0x10, symBinAddr: 0x100008D9C, symSize: 0x34 }
+  - { offsetInCU: 0x113, offset: 0x54B49, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0J7SessionCSo0J17ConnectionOptionsCtFTo', symObjAddr: 0x44, symBinAddr: 0x100008DD0, symSize: 0x4 }
+  - { offsetInCU: 0x12F, offset: 0x54B65, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC18sceneDidDisconnectyySo7UISceneCFTo', symObjAddr: 0x48, symBinAddr: 0x100008DD4, symSize: 0x4 }
+  - { offsetInCU: 0x14B, offset: 0x54B81, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCFTo', symObjAddr: 0x4C, symBinAddr: 0x100008DD8, symSize: 0x4 }
+  - { offsetInCU: 0x167, offset: 0x54B9D, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC21sceneWillResignActiveyySo7UISceneCFTo', symObjAddr: 0x50, symBinAddr: 0x100008DDC, symSize: 0x4 }
+  - { offsetInCU: 0x183, offset: 0x54BB9, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCFTo', symObjAddr: 0x54, symBinAddr: 0x100008DE0, symSize: 0x4 }
+  - { offsetInCU: 0x19F, offset: 0x54BD5, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCFTo', symObjAddr: 0x58, symBinAddr: 0x100008DE4, symSize: 0x4 }
+  - { offsetInCU: 0x1D9, offset: 0x54C0F, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateCACycfcTo', symObjAddr: 0x5C, symBinAddr: 0x100008DE8, symSize: 0x48 }
+  - { offsetInCU: 0x214, offset: 0x54C4A, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateCfD', symObjAddr: 0xA4, symBinAddr: 0x100008E30, symSize: 0x30 }
+  - { offsetInCU: 0x242, offset: 0x54C78, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateCfETo', symObjAddr: 0xD4, symBinAddr: 0x100008E60, symSize: 0x10 }
+  - { offsetInCU: 0x271, offset: 0x54CA7, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject13SceneDelegateCMa', symObjAddr: 0xE4, symBinAddr: 0x100008E70, symSize: 0x20 }
+  - { offsetInCU: 0x2B, offset: 0x54DD0, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject19ResourceBundleClass33_818BEA71BB687788B969CE19B854D05ALLCfD', symObjAddr: 0x0, symBinAddr: 0x100008E90, symSize: 0x10 }
+  - { offsetInCU: 0x55, offset: 0x54DFA, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject19ResourceBundleClass33_818BEA71BB687788B969CE19B854D05ALLCfD', symObjAddr: 0x0, symBinAddr: 0x100008E90, symSize: 0x10 }
+  - { offsetInCU: 0x86, offset: 0x54E2B, size: 0x8, addend: 0x0, symName: '_$s13CIdemoProject19ResourceBundleClass33_818BEA71BB687788B969CE19B854D05ALLCMa', symObjAddr: 0x10, symBinAddr: 0x100008EA0, symSize: 0x20 }
+...

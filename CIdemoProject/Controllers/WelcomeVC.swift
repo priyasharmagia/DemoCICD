@@ -12,8 +12,20 @@ class WelcomeVC: UIViewController {
     
     
     @IBOutlet weak var welcomeLabel: UILabel!
+    private var employeesViewModel : EmployeesViewModel!
+
     
     var name : String = ""
+    
+    func uiUpdate()  {
+        self.employeesViewModel = EmployeesViewModel()
+        self.employeesViewModel.bindEmployeeViewModelToController = {
+            //self.updateDataSource()
+            
+            
+            
+        }
+    }
     
     
     override func viewDidLoad() {
@@ -22,5 +34,7 @@ class WelcomeVC: UIViewController {
         
         welcomeLabel.text = "Hello \(name), how are you ?"
     }
+    
+    
     
 }

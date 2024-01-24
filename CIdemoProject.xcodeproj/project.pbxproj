@@ -15,6 +15,10 @@
 		5023848E2B1F02A8002BE331 /* CIdemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5023848D2B1F02A8002BE331 /* CIdemoProjectTests.swift */; };
 		502384962B1F05CA002BE331 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502384952B1F05CA002BE331 /* LoginVC.swift */; };
 		502384982B1F05D8002BE331 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502384972B1F05D8002BE331 /* WelcomeVC.swift */; };
+		50684E652B4095C30005E394 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50684E642B4095C30005E394 /* ExportOptions.plist */; };
+		50AEC72B2B5EA56D00CE44B7 /* EmployeesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AEC72A2B5EA56D00CE44B7 /* EmployeesViewModel.swift */; };
+		50AEC72D2B5EA5BE00CE44B7 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AEC72C2B5EA5BE00CE44B7 /* Employee.swift */; };
+		50AEC7302B5EA7A900CE44B7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AEC72F2B5EA7A900CE44B7 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,10 @@
 		5023848D2B1F02A8002BE331 /* CIdemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIdemoProjectTests.swift; sourceTree = "<group>"; };
 		502384952B1F05CA002BE331 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		502384972B1F05D8002BE331 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		50684E642B4095C30005E394 /* ExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
+		50AEC72A2B5EA56D00CE44B7 /* EmployeesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewModel.swift; sourceTree = "<group>"; };
+		50AEC72C2B5EA5BE00CE44B7 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		50AEC72F2B5EA7A900CE44B7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,9 @@
 		502384722B1B792C002BE331 /* CIdemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				50AEC72E2B5EA78500CE44B7 /* APIservice */,
+				50AEC7292B5D398900CE44B7 /* ViewModel */,
+				50AEC7282B5D370B00CE44B7 /* Model */,
 				502384942B1F05B1002BE331 /* Controllers */,
 				502384732B1B792C002BE331 /* AppDelegate.swift */,
 				502384752B1B792C002BE331 /* SceneDelegate.swift */,
@@ -87,6 +98,7 @@
 				5023847C2B1B7932002BE331 /* Assets.xcassets */,
 				5023847E2B1B7932002BE331 /* LaunchScreen.storyboard */,
 				502384812B1B7932002BE331 /* Info.plist */,
+				50684E642B4095C30005E394 /* ExportOptions.plist */,
 			);
 			path = CIdemoProject;
 			sourceTree = "<group>";
@@ -106,6 +118,30 @@
 				502384972B1F05D8002BE331 /* WelcomeVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50AEC7282B5D370B00CE44B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50AEC72C2B5EA5BE00CE44B7 /* Employee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50AEC7292B5D398900CE44B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50AEC72A2B5EA56D00CE44B7 /* EmployeesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		50AEC72E2B5EA78500CE44B7 /* APIservice */ = {
+			isa = PBXGroup;
+			children = (
+				50AEC72F2B5EA7A900CE44B7 /* APIService.swift */,
+			);
+			path = APIservice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +228,7 @@
 				502384802B1B7932002BE331 /* LaunchScreen.storyboard in Resources */,
 				5023847D2B1B7932002BE331 /* Assets.xcassets in Resources */,
 				5023847B2B1B792C002BE331 /* Main.storyboard in Resources */,
+				50684E652B4095C30005E394 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				502384982B1F05D8002BE331 /* WelcomeVC.swift in Sources */,
+				50AEC7302B5EA7A900CE44B7 /* APIService.swift in Sources */,
 				502384742B1B792C002BE331 /* AppDelegate.swift in Sources */,
 				502384962B1F05CA002BE331 /* LoginVC.swift in Sources */,
+				50AEC72D2B5EA5BE00CE44B7 /* Employee.swift in Sources */,
+				50AEC72B2B5EA56D00CE44B7 /* EmployeesViewModel.swift in Sources */,
 				502384762B1B792C002BE331 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,8 +413,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T7NKT5AGR8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CIdemoProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,8 +431,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.CI.CIdemoProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GIA.CI.CIdemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Distribution_GIA_TCS_ClientApps;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,8 +446,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T7NKT5AGR8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CIdemoProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -414,8 +464,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.CI.CIdemoProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GIA.CI.CIdemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Distribution_GIA_TCS_ClientApps;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

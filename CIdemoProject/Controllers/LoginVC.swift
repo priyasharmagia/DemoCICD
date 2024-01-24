@@ -12,18 +12,22 @@ class LoginVC: UIViewController {
     
     @IBOutlet weak var nameTextFiled: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    
+    
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
     
+    
+  
     
     @IBAction func submitButtonAction(_ sender: UIButton) {
         
         if nameTextFiled.text?.isEmpty == true {
-            let alert = UIAlertController(title: "Alert", message: "Please enter name", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Alert", message: "Please enter your name", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
                 
             }))
