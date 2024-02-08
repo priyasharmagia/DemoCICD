@@ -8,10 +8,20 @@ on:
    - Priya
    
 jobs:
- build_with_signing:
+
+ run_tests:
   runs-on: macos-latest
-  
   steps:
+    - uses: actions/checkout@v1
+    - name: Select Xcode
+      run: sudo Xcode-select -switch /Applications/Xcode.app
+    - name: Run tests
+      run: xcodebuild test -scheme CIdemoProject -project CIdemoProject.xcodeproj
+      
+ build_with_signing:
+   runs-on: macos-latest
+  
+   steps:
       - name: check Xcode version
         run: /usr/bin/xcodebuild -version
 
